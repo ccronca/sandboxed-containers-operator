@@ -24,7 +24,7 @@ spec:
   - name: git-url
     value: '{{source_url}}'
   - name: image-expires-after
-    value: 5d
+    value: 6d
   - name: output-image
     value: quay.io/redhat-user-workloads/ose-osc-tenant/openshift-sandboxed-containers/sandboxed-containers-operator:on-pr-{{revision}}
   - name: path-context
